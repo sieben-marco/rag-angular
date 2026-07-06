@@ -8,7 +8,7 @@ Chatbot RAG (Retrieval Augmented Generation) para responder dúvidas sobre Angul
 
 | Arquivo | Mudança |
 | ------- | ------- |
-| `pom.xml` | Adicionadas dependências: `quarkus-langchain4j-ai-gemini`, `quarkus-hibernate-orm-panache`, `quarkus-jdbc-postgresql` |
+| `pom.xml` | Adicionadas dependências: `langchain4j-document-parser-apache-tika`, `quarkus-langchain4j-ai-gemini`, `quarkus-hibernate-orm-panache`, `quarkus-jdbc-postgresql` |
 | `application.properties` | Configuração do Gemini, datasource PostgreSQL, Hibernate ORM e Dev Services com porta fixa |
 | `RagRetriever.java` | Injeta `RagLoggingContentInjector` para logging dos chunks |
 | `CustomerSupportAgent.java` | System Message adaptada para Angular (contexto em PT-BR) |
